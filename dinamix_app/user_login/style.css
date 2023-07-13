@@ -1,0 +1,190 @@
+@media screen and (max-width: 1200px){
+    body{
+        font-family: sans-serif;
+        background: #f2f2f2;
+    }
+    .bk{
+        padding-left: 10px;
+        margin-top: 2%;
+    }
+    .bk span{
+        font-size: 35px;
+        color: black;
+    }
+    .img_box{
+        text-align: center;
+    }
+    .img_box img{
+       width: 80%;
+    }
+    .lg{
+        padding-left: 5px;
+    }
+    .lg h1{
+        font-size: 40px;
+    }
+    .lg h4{
+        font-size: 20px;
+        margin-top: -2%;
+        color: #00a651;
+    }
+    .emal{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        padding-left: 5px;    
+        padding-right: 5px;
+    }
+    .emal label{
+        font-size: 25px;
+    }
+    .emal input{
+        font-size: 20px;
+        margin-top: 1%;
+        padding: 15px;
+        padding-left: 8px;
+        border-radius: 7px;
+        border: 2px solid rgba(128, 128, 128, 0.474);
+        background-color: white;
+    }
+    .fg{
+        padding-left: 6px;
+        margin-top: 3%;
+    }
+    .fg a{
+        font-size: 17px;
+        text-decoration: none;
+        color: #002147;
+    }
+    .sub{
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 7%;
+    }
+    .sub button{
+        width: 100%;
+        padding: 12px;
+        background: #00a651;
+        color: white;
+        border-radius: 8px;
+        border: 2px solid #00a651;
+        font-size: 25px;
+    }
+    .snup{
+        text-align: center;
+    }
+    .snup p{
+        font-size: 19px;
+    }
+    .snup a{
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    body{
+        font-family: sans-serif;
+        background: #f2f2f2;
+    }
+    .bk{
+        padding-left: 10px;
+        margin-top: 2%;
+    }
+    .bk span{
+        font-size: 35px;
+        color: black;
+    }
+    .img_box{
+        text-align: center;
+    }
+    .img_box img{
+       width: 80%;
+    }
+    .lg{
+        padding-left: 5px;
+    }
+    .lg h1{
+        font-size: 20px;
+    }
+    .lg h4{
+        color: #00a651;
+        font-size: 14px;
+    }
+    .emal{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        padding-left: 5px;    
+    }
+    .emal label{
+        font-size: 18px;
+    }
+    .emal input{
+        margin-top: 1%;
+        padding: 6px;
+        padding-left: 8px;
+        border-radius: 7px;
+        border: 2px solid rgba(128, 128, 128, 0.474);
+        background-color: white;
+        font-size: 15px;
+    }
+    .fg{
+        padding-left: 5px;
+        margin-top: 3%;
+    }
+    .fg a{
+        text-decoration: none;
+        color: #002147;
+    }
+    .sub{
+        text-align: center;
+        padding-left: 5px;
+        margin-top: 7%;
+    }
+    .sub button{
+        width: 100%;
+        padding: 7px;
+        background: #00a651;
+        color: white;
+        border-radius: 8px;
+        border: 2px solid #00a651;
+        font-size: 15px;
+    }
+    .snup{
+        text-align: center;
+    }
+    .snup p{
+        font-size: 17px;
+    }
+    .snup a{
+        text-decoration: none;
+    }
+}
+
+/*==========================================================SIGN UP FORM===========================================*/
+
+.img_boxs{
+    text-align: center;
+}
+.img_boxs img{
+   width: 50%;
+}
+.frm{
+    position: sticky;
+}
+.agr{
+    text-align: center;
+    margin-top: 10%;
+}
+.agr p{
+    font-size: 15px;
+}
+.agr a{
+    text-decoration: none;
+    color: #00a651;
+}

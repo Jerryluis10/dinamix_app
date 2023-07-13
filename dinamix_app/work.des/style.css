@@ -1,0 +1,234 @@
+@media screen and (max-width: 1200px){
+    body{
+        font-family: sans-serif;
+    }
+    .srt{
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        gap: 15rem;
+    }
+    .srt span{
+       font-size: 50px;
+    }
+    .srt span:last-child{
+        color: #002147;
+    }
+    .srt img{
+        width: 70%;
+    }
+    .lines{
+        padding: 8px;
+        padding-top: 3%;
+        display: flex;
+        align-items: center;
+        gap: 7rem;
+        justify-content: center;
+    }
+    .lines a{
+        text-decoration: none;
+        font-size: 29px;
+        background-color: #00a651;
+        padding: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 30%;
+        text-align: center;
+        color: white;
+        border-radius: 12px;
+    }
+    .lines a:last-child{
+        background: #d8d8d8;
+        color: #002147;
+    }
+    .map_img{
+        background-image: url(../img/maplagos.png);
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        margin-top: 3%;
+        text-align: right;
+    }
+   .map_img > div{
+    margin-left: 80%;
+    text-align: -webkit-center;
+    padding-top: 64%;
+   }
+   .viw{
+    padding: 8px;
+    display: flex;
+    gap: 36rem;
+   }  
+   .viw a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+   }
+   .viw a:last-child{
+    color: #00a651;
+   }
+   .contain{
+    margin-top: 3%;
+    width: 100%;
+    height: 27vh;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 2rem;
+   }
+   .contain .card{
+    min-width: 90%;
+    border-radius: 9px;
+    border: 5px solid #002147;
+    scroll-snap-align: center;
+    padding: 8px;
+    background-color: #f2f2f2;
+   }
+
+   .contain .card .miles{
+    text-align: right;
+   }
+   .contain .card .miles p{
+    font-weight: 700;
+   }
+   .contain .card .miles p:last-child{
+    color: #00a651;
+    margin-top: -1%;
+   }
+   .prof_img{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: -7%;
+   }
+   .profile_img{
+    width: 15%;
+    border-radius: 50%;
+   }
+   .profile_img img{
+    border-radius: 50%;
+    width: 100%;
+   }
+   .info p{
+    font-weight: 800;
+    font-size: 17px;
+   }
+   .info p:last-child{
+    color: #00a651;
+    margin-top: -5%;
+   }
+   .skil{
+    text-align: center;
+   }
+   .skil p{
+    font-size: 18px;
+    font-weight: 700;
+   }
+   .brd{
+    border: 3px solid #00a651;
+   }
+   .tjobs{
+    display: flex;
+    align-items: center;
+    gap: 23rem;
+    padding-left: 16px;
+   }
+   .tjobs p{
+    font-weight: 800;
+    font-size: 16px;
+   }
+   .atags{
+    align-items: center;
+    display: flex;
+    gap: 16rem;
+   }
+   .atags a{
+    background: #002147;
+    color: white;
+    padding: 6px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+   }
+   .atags a:last-child{
+    background: #00a651;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .srt{
+        gap: 3rem;
+    }
+    .srt span{
+        font-size: 30px;
+    }
+    .lines a{
+        font-size: 14px;
+        padding: 6px;   
+    }
+    .map_img{
+        height: 390px;
+    }
+    .map_img > div{
+        margin-left: 75%;
+        padding-top: 83%;
+    }
+    .my_locat a > div{
+        width: 45px;
+        height: 45px;
+    }
+    .viw{
+        gap: 11rem;
+    }
+    .viw a{
+        font-size: 15px;
+    }
+    .contain .card .miles{
+        margin-top: -6%;
+    }
+    .contain .card .miles p{
+        font-weight: 500;
+    }
+    .contain .card .miles p:last-child{
+        margin-top: -5%;
+    }
+    .prof_img{
+        margin-top: -16%;
+        gap: 1rem;    
+    }
+    .info p{
+        font-size: 13px;
+    }
+    .info p:last-child{
+        margin-top: -14%;
+    }
+    .skil{
+        margin-top: -5%;
+    }
+    .skil p{
+        font-size: 13px;
+    }
+    .brd{
+        border: 2px solid #00a651;
+    }
+    .tjobs{
+        gap: 5rem;
+       padding-left: 0px;
+    }
+    .tjobs p{
+        font-size: 11px;
+    }
+    .atags{
+        gap: 6rem;
+    }
+    .atags a{
+        padding: 8px;
+        font-size: 13px;
+    }
+}

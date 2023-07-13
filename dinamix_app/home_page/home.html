@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+       <aside>
+          <div class="top">
+            <div class="logo">
+                <img src="../img/dina.png">
+                <!---<h2>BLUE<span class="danger">VOLTE</span></h2>----->
+            </div>
+            <div id="close-btn" class="close">
+                <span class="material-icons-sharp">close</span>
+            </div>
+          </div>
+          
+           <div class="user-profile">
+            <div>
+                <a href="../dashboard/dashboard.php">
+                    <span class="material-icons-sharp back">arrow_back</span>
+                </a>
+              </div>
+              <!---<div class="profile-photos">
+                <img src="../img/propic.jpg" alt="">
+              </div>---->
+              <div class="adding">
+                <a href=""><span class="material-icons-sharp add">add</span></a>
+              </div>
+              <div class="admin">
+                <h3>Onyekachi Jeremiah</h3>
+                <h4>jerryluis4life@gmail.com</h4>
+                <h4>Electrician</h4>
+              </div>
+           </div>
+          <div class="sidebar">
+          <a href="../home_page/home.php" class="active">
+                <span class="material-icons-sharp">home</span>
+                <h3>Home</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="../worker_profile.html">
+                <span class="material-icons-sharp">person</span>
+                <h3>Profile</h3>
+            </a>
+            <!--<a href="#" class="">
+                <span class="material-icons-sharp">group_add</span>
+                <h3>Referral</h3>
+            </a>--->
+            <!---<a href="../withdraw/withdraw.php" class="">
+                <span class="material-icons-sharp">credit_card</span>
+                <h3>Withdrawal</h3>
+            </a>---->
+            <a href="../work.des/describe.html">
+                <span class="material-icons-sharp">engineering</span>
+                <h3>Workers</h3>
+            </a>
+            <!---<a href="../report/report.php">
+                <span class="material-icons-sharp">disabled_by_default</span>
+                <h3>Cancelled Jobs</h3>
+            </a>---->
+            <a href="../support/support.html">
+                <span class="material-icons-sharp">support_agent</span>
+                <h3>Support</h3>
+            </a>
+           <!-----<a href="../report/report.php">
+                <span class="material-icons-sharp">report_gmailerrorred</span>
+                <h3>Reports</h3>
+            </a>---->
+            <a href="#">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+
+            <a href="#">Sign up as a worker</a>
+          </div>
+       </aside>
+       <!-------------------------------end of aside---------------------------->
+
+       <main>
+       <div class="map_area">
+        <div class="locate"><p><span class="material-icons-sharp">location_on</span>Service Area: <span> Oshodi/Isolo, Lagos</span></p></div>
+        <div class="map_img">
+            <div class="chat"><a href="../support/support.html"><span class="material-icons-sharp">comment</span> Chat with us!</a></div>
+        </div>
+        <div class="ctu"><a href="../support/support.html"><span class="material-icons-sharp">help</span><p>Contact us</p></a></div>
+        <div class="sel_ser"><a href="../works/work.html">Select Services</a></div>
+       </div>
+       
+       </main>
+    <!---------------------------------END OF MAIN-------------------------------------->
+      
+       <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-togglers">
+                    <a href=""><span class="material-icons-sharp ">notifications</span></a>
+                </div>
+                <div class="profile">
+                     <div class="info">
+                        <p>Hey. <b><?php echo "$user_name";?></b></p>
+                        <small class="text-muted">Admin</small>
+                     </div>
+                     <div class="profile-photo">
+                     </div>
+                </div>
+            </div>
+            <!-------------------------END OF TOP--------------------->
+          
+            <!--------------------------------END OF RECENT UPDATES----------------------------->
+            
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
